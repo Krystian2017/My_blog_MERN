@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
-class Home extends Component {
+class About extends Component {
   render() {
     return (
       <div>
@@ -21,10 +21,6 @@ const mapDispatchToProps = (dispatch) => {
   return {};
 };
 
-About.propTypes = {
-};
+About.propTypes = {};
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(About);
+export default connect(mapStateToProps, mapDispatchToProps)(About);
