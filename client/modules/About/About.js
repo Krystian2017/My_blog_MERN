@@ -3,12 +3,12 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
-// Import Style
-import styles from './About.css';
-
-class About extends Component {
+class Home extends Component {
   render() {
     return (
+      <div>
+        <h2>About</h2>
+      </div>
     );
   }
 }
